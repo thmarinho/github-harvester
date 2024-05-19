@@ -1,0 +1,17 @@
+{
+  "name": "github-harvester",
+  "version": "0.0.1",
+  "description": "Simple command to download GitHub repositories from cli",
+  "main": "index.mjs",
+  "bin": {
+    "github-harvester": "bin/index.mjs"
+  },
+  "author": "thmarinho",
+  "license": "MIT",
+  "dependencies": {
+    "aigle": "^1.14.1",
+    "argparse": "^2.0.1",
+    "execa": "^9.1.0",
+    "spinnies": "^0.5.1"
+  }
+}

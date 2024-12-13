@@ -42,7 +42,7 @@ const getRepositories = async (args) => {
     return res.items.map((repository, index) => ({
       name: `${index}-${repository.full_name}`,
       url: repository.html_url,
-      cloneCommand: `git clone ${repository.html_url} ${index}-${repository.full_name}`
+      cloneCommand: `git clone --depth=1 ${repository.html_url} ${index}-${repository.full_name}`
     }))
   } catch (err) {
     console.error(err)

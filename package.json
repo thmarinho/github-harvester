@@ -1,6 +1,6 @@
 {
   "name": "github-harvester",
-  "version": "1.0.0a",
+  "version": "1.0.0b",
   "description": "Simple command to download GitHub repositories from cli",
   "main": "index.mjs",
   "bin": {
